@@ -1,0 +1,56 @@
+/* Your board style here */
+#player1-race td {
+  height: 80px;
+  width: 80px;
+  background-color: gray;
+  border-bottom: 10px double white;
+}
+
+#player2-race td {
+  height: 80px;
+  width: 80px;
+  background-color: gray;
+}
+
+#player1-race td.finish {
+  border-bottom: none; /* Remove the border on .finish elements */
+}
+
+.racer-table td.active {
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#player1-race td.active {
+  background-image: url("images/player_1.png");
+}
+#player2-race td.active {
+  background-image: url("images/player_2.png");
+}
+
+.finish {
+  background-image: url("/images/finish.png");
+  background-size: 130%;
+}
+
+.racer-table  {
+  width: 100%;
+}
+
+.center-button{
+  justify-content: center; /* Center horizontally */
+  align-items: center;
+  text-align: center;
+}
+
+button{
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: #670BFF;
+  transition: background 0.3s ease;
+}
+
+button:hover{
+  background: #4D04C4;
+  color: white;
+}
